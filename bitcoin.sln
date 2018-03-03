@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executables", "Executables", "{CD5F6D70-33B6-46C6-BC5C-6F7DB896F91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{86B83335-E60E-4921-AFED-15881C3EBCA3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoin-cli", "Executables\bitcoin-cli.vcxproj", "{28048A59-C173-430E-9A41-4F7DA19A368E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28048A59-C173-430E-9A41-4F7DA19A368E}.Debug|x64.ActiveCfg = Debug|x64
+		{28048A59-C173-430E-9A41-4F7DA19A368E}.Debug|x64.Build.0 = Debug|x64
+		{28048A59-C173-430E-9A41-4F7DA19A368E}.Debug|x86.ActiveCfg = Debug|Win32
+		{28048A59-C173-430E-9A41-4F7DA19A368E}.Debug|x86.Build.0 = Debug|Win32
+		{28048A59-C173-430E-9A41-4F7DA19A368E}.Release|x64.ActiveCfg = Release|x64
+		{28048A59-C173-430E-9A41-4F7DA19A368E}.Release|x64.Build.0 = Release|x64
+		{28048A59-C173-430E-9A41-4F7DA19A368E}.Release|x86.ActiveCfg = Release|Win32
+		{28048A59-C173-430E-9A41-4F7DA19A368E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28048A59-C173-430E-9A41-4F7DA19A368E} = {CD5F6D70-33B6-46C6-BC5C-6F7DB896F91C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F1E30AC-66FF-4DCD-8CA4-F1AF70A2C941}
+	EndGlobalSection
+EndGlobal
