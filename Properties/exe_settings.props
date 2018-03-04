@@ -2,11 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
-  <ItemDefinitionGroup>
-    <ClCompile>
-      <PreprocessorDefinitions>HAVE_CONFIG_H;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-    </ClCompile>
-  </ItemDefinitionGroup>
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)_bin\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectName).dir\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
   <ItemGroup />
 </Project>

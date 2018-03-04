@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\consensus">
+      <UniqueIdentifier>{4e29c098-795a-4fc5-9cfa-9425c2cd7df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\policy">
+      <UniqueIdentifier>{6847566f-be47-47a6-b46c-7691ca6decb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rpc">
+      <UniqueIdentifier>{aee1ca2e-f06a-4a2e-a977-4e0a027463be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\script">
+      <UniqueIdentifier>{0609d4a6-b520-4e2a-8427-40ce81870f7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\consensus\tx_verify.cpp">
+      <Filter>Source Files\consensus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\policy\fees.cpp">
+      <Filter>Source Files\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\policy\policy.cpp">
+      <Filter>Source Files\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\policy\rbf.cpp">
+      <Filter>Source Files\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\blockchain.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\mining.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\misc.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\rawtransaction.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\safemode.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\server.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\sigcache.cpp">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\addrdb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\addrman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\blockencodings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\bloom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\chain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\checkpoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\dbwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\httprpc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\httpserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\merkleblock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\miner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\net_processing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\noui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\pow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\timedata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\torcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\txdb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\txmempool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\ui_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\validation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\validationinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\versionbits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\net_rpc.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

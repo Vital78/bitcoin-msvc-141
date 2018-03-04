@@ -2,22 +2,103 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
-    <BTC_INCLUDES>$(BTC_ROOT);$(BTC_ROOT)\univalue\include;$(BOOST_ROOT);$(LIBEVENT_ROOT)\include</BTC_INCLUDES>
-    <BTC_LIBS32>$(BOOST_ROOT)\lib32-msvc-14.1</BTC_LIBS32>
+    <BTC_INCLUDES>$(BTC_ROOT);$(BTC_ROOT)\compat;$(BTC_ROOT)\consensus;$(BTC_ROOT)\policy;$(BTC_ROOT)\rpc;$(BTC_ROOT)\script;$(BTC_ROOT)\support;$(BTC_ROOT)\wallet;$(BTC_ROOT)\zmq;</BTC_INCLUDES>
+    <UNIVALUE_INCLUDES>$(BTC_ROOT)\univalue\include</UNIVALUE_INCLUDES>
+    <SECP256K1_INCLUDES>$(BTC_ROOT)\secp256k1\include</SECP256K1_INCLUDES>
+    <LEVELDB_INCLUDES>$(BTC_ROOT)\leveldb\helpers\memenv;$(BTC_ROOT)\leveldb\include</LEVELDB_INCLUDES>
+    <MINIUPNPC_INCLUDES>$(MINIUPNPC_ROOT)\include</MINIUPNPC_INCLUDES>
+    <BOOST_INCLUDES>$(BOOST_ROOT)</BOOST_INCLUDES>
+    <BERKELEYDB_INCLUDES>$(BERKELEYDB_ROOT)\include</BERKELEYDB_INCLUDES>
+    <OPENSSL_INCLUDES>$(OPENSSL_ROOT_DIR)\include</OPENSSL_INCLUDES>
+    <EVENT_INCLUDES>$(EVENT_ROOT)\include</EVENT_INCLUDES>
+    <ZMQ_INCLUDES>$(ZMQ_ROOT)\include</ZMQ_INCLUDES>
+    <BOOST_LIBS32>$(BOOST_ROOT)\lib32-msvc-14.1</BOOST_LIBS32>
+    <OPENSSL_LIBS32>$(OPENSSL_ROOT_DIR)\lib</OPENSSL_LIBS32>
+    <OPENSSL_DEPS32>libcrypto.lib;libssl.lib</OPENSSL_DEPS32>
+    <EVENT_LIBS32>$(EVENT_ROOT)\lib</EVENT_LIBS32>
+    <EVENT_DEPS32>event.lib</EVENT_DEPS32>
+    <MINIUPNPC_LIBS32>$(MINIUPNPC_ROOT)\lib</MINIUPNPC_LIBS32>
+    <MINIUPNPC_DEPS32>miniupnpc.lib</MINIUPNPC_DEPS32>
   </PropertyGroup>
-  <PropertyGroup />
+  <PropertyGroup>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(BTC_INCLUDES)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(BTC_INCLUDES);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)_lib\$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <BuildMacro Include="BTC_INCLUDES">
       <Value>$(BTC_INCLUDES)</Value>
       <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
-    <BuildMacro Include="BTC_LIBS32">
-      <Value>$(BTC_LIBS32)</Value>
+    <BuildMacro Include="UNIVALUE_INCLUDES">
+      <Value>$(UNIVALUE_INCLUDES)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SECP256K1_INCLUDES">
+      <Value>$(SECP256K1_INCLUDES)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="LEVELDB_INCLUDES">
+      <Value>$(LEVELDB_INCLUDES)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="MINIUPNPC_INCLUDES">
+      <Value>$(MINIUPNPC_INCLUDES)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_INCLUDES">
+      <Value>$(BOOST_INCLUDES)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BERKELEYDB_INCLUDES">
+      <Value>$(BERKELEYDB_INCLUDES)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_INCLUDES">
+      <Value>$(OPENSSL_INCLUDES)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="EVENT_INCLUDES">
+      <Value>$(EVENT_INCLUDES)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="ZMQ_INCLUDES">
+      <Value>$(ZMQ_INCLUDES)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_LIBS32">
+      <Value>$(BOOST_LIBS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_LIBS32">
+      <Value>$(OPENSSL_LIBS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_DEPS32">
+      <Value>$(OPENSSL_DEPS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="EVENT_LIBS32">
+      <Value>$(EVENT_LIBS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="EVENT_DEPS32">
+      <Value>$(EVENT_DEPS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="MINIUPNPC_LIBS32">
+      <Value>$(MINIUPNPC_LIBS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="MINIUPNPC_DEPS32">
+      <Value>$(MINIUPNPC_DEPS32)</Value>
       <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
   </ItemGroup>

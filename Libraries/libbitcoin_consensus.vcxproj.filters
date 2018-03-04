@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\consensus">
+      <UniqueIdentifier>{1cef1b32-cf5a-487e-80f0-b23878841d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\consensus">
+      <UniqueIdentifier>{206c83fd-8624-4037-8358-a6a2db62f77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\primitives">
+      <UniqueIdentifier>{243a85c8-c784-44de-8c7f-c7ddad75ed4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\primitives">
+      <UniqueIdentifier>{b836e6d7-ede4-42c0-863d-aab5602f04d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\script">
+      <UniqueIdentifier>{47475fd1-d0b1-4884-b6f5-c083973ea40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\script">
+      <UniqueIdentifier>{90d7e574-9c4e-47d0-8acd-5607d72514ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\consensus\merkle.h">
+      <Filter>Header Files\consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\consensus\params.h">
+      <Filter>Header Files\consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\consensus\validation.h">
+      <Filter>Header Files\consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\primitives\block.h">
+      <Filter>Header Files\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\primitives\transaction.h">
+      <Filter>Header Files\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\script\interpreter.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\script\script.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\script\script_error.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\amount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\arith_uint256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\prevector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\pubkey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\serialize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\tinyformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\uint256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\utilstrencodings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\consensus\merkle.cpp">
+      <Filter>Source Files\consensus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\primitives\block.cpp">
+      <Filter>Source Files\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\primitives\transaction.cpp">
+      <Filter>Source Files\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\bitcoinconsensus.cpp">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\interpreter.cpp">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\script.cpp">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\script_error.cpp">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\arith_uint256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\pubkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\uint256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\utilstrencodings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

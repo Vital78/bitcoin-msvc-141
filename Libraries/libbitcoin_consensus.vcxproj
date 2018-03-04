@@ -20,23 +20,25 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{28048A59-C173-430E-9A41-4F7DA19A368E}</ProjectGuid>
-    <RootNamespace>bitcoincli</RootNamespace>
+    <ProjectGuid>{A40CB949-DE40-4303-8092-CE8F68161615}</ProjectGuid>
+    <RootNamespace>libbitcoin_consensus</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>
+    </CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>
+    </CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -59,23 +61,26 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\Properties\settings.props" />
-    <Import Project="..\Properties\arch32.props" />
-    <Import Project="..\Properties\preprocessors.props" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\debug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\Properties\settings.props" />
-    <Import Project="..\Properties\preprocessors.props" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\release.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\Properties\settings.props" />
-    <Import Project="..\Properties\preprocessors.props" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\debug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\Properties\settings.props" />
-    <Import Project="..\Properties\preprocessors.props" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\release.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup />
@@ -83,8 +88,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
-      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>$(SECP256K1_INCLUDES)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -100,7 +106,9 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>$(SECP256K1_INCLUDES)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -121,10 +129,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="$(BTC_SRC)\bitcoin-cli.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\arith_uint256.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\consensus\merkle.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\hash.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\primitives\block.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\primitives\transaction.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\pubkey.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\bitcoinconsensus.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\interpreter.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\script.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\script_error.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\uint256.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\utilstrencodings.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(BTC_SRC)\bitcoin-cli-res.rc" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\amount.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\arith_uint256.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\consensus\merkle.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\consensus\params.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\consensus\validation.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\hash.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\prevector.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\primitives\block.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\primitives\transaction.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\pubkey.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\script\interpreter.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\script\script.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\script\script_error.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\serialize.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\tinyformat.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\uint256.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\utilstrencodings.h" />
+    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\version.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{922C3B12-01CE-4B2D-9CF8-27D61B6BB15C}</ProjectGuid>
+    <RootNamespace>leveldb</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>
+    </CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>
+    </CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\release.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>$(ProjectName)d</TargetName>
+    <TargetExt>.lib</TargetExt>
+    <OutDir>$(SolutionDir)_lib\$(Configuration)\leveldb</OutDir>
+    <IntDir>$(ProjectName).dir\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetExt>.lib</TargetExt>
+    <IntDir>$(ProjectName).dir\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_lib\$(Configuration)\leveldb</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>$(BTC_ROOT)\leveldb;$(BTC_ROOT)\leveldb\include;$(BTC_ROOT)\compat;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>LEVELDB_PLATFORM_WINDOWS;_CRT_SECURE_NO_WARNINGS;ssize_t=SSIZE_T;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>BaseTsd.h</ForcedIncludeFiles>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>$(BTC_ROOT)\leveldb;$(BTC_ROOT)\leveldb\include;$(BTC_ROOT)\compat;</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>LEVELDB_PLATFORM_WINDOWS;_CRT_SECURE_NO_WARNINGS;ssize_t=SSIZE_T;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>BaseTsd.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\builder.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\dbformat.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\db_impl.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\db_iter.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\filename.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\log_format.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\log_reader.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\log_writer.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\memtable.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\skiplist.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\snapshot.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\table_cache.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\version_edit.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\version_set.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\db\write_batch_internal.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\c.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\cache.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\comparator.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\db.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\dumpfile.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\env.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\filter_policy.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\iterator.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\options.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\slice.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\status.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\table.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\table_builder.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\include\leveldb\write_batch.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\port\atomic_pointer.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\port\port.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\port\port_example.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\port\port_posix.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\port\port_win.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\port\thread_annotations.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\port\win\stdint.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\table\block.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\table\block_builder.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\table\filter_block.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\table\format.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\table\iterator_wrapper.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\table\merger.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\table\two_level_iterator.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\arena.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\coding.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\crc32c.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\env_posix_test_helper.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\hash.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\histogram.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\logging.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\mutexlock.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\posix_logger.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\random.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\testharness.h" />
+    <ClInclude Include="$(BTC_ROOT)\leveldb\util\testutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\builder.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\c.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\dbformat.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\db_impl.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\db_iter.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\dumpfile.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\filename.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\log_reader.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\log_writer.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\memtable.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\repair.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\table_cache.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\version_edit.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\version_set.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\db\write_batch.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\port\port_win.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\table\block.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\table\block_builder.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\table\filter_block.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\table\format.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\table\iterator.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\table\merger.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\table\table.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\table\table_builder.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\table\two_level_iterator.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\arena.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\bloom.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\cache.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\coding.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\comparator.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\crc32c.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\env.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\env_posix.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\env_win.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\filter_policy.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\hash.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\histogram.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\logging.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\options.cc" />
+    <ClCompile Include="$(BTC_ROOT)\leveldb\util\status.cc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -6,9 +6,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bitcoin\src\bitcoin-cli.cpp" />
+    <ClCompile Include="$(BTC_SRC)\bitcoin-cli.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="bitcoin\src\bitcoin-cli-res.rc" />
+    <ResourceCompile Include="$(BTC_SRC)\bitcoin-cli-res.rc" />
   </ItemGroup>
 </Project>

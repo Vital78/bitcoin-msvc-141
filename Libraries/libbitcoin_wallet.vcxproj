@@ -20,19 +20,19 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{28048A59-C173-430E-9A41-4F7DA19A368E}</ProjectGuid>
-    <RootNamespace>bitcoincli</RootNamespace>
+    <ProjectGuid>{0C0B083C-0C90-4622-8738-192D1497B698}</ProjectGuid>
+    <RootNamespace>libbitcoin_wallet</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -59,23 +59,26 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\Properties\settings.props" />
-    <Import Project="..\Properties\arch32.props" />
-    <Import Project="..\Properties\preprocessors.props" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\debug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\Properties\settings.props" />
-    <Import Project="..\Properties\preprocessors.props" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\release.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\Properties\settings.props" />
-    <Import Project="..\Properties\preprocessors.props" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\debug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\Properties\settings.props" />
-    <Import Project="..\Properties\preprocessors.props" />
+    <Import Project="..\Properties\lib_settings.props" />
+    <Import Project="..\Properties\release.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup />
@@ -84,7 +87,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(UNIVALUE_INCLUDES);$(BOOST_INCLUDES);$(BERKELEYDB_INCLUDES)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -101,6 +105,8 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(UNIVALUE_INCLUDES);$(BOOST_INCLUDES);$(BERKELEYDB_INCLUDES)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -121,10 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="$(BTC_SRC)\bitcoin-cli.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="$(BTC_SRC)\bitcoin-cli-res.rc" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\crypter.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\db.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\feebumper.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\fees.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\init.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\rpcdump.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\rpcwallet.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\wallet.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\walletdb.cpp" />
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\walletutil.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

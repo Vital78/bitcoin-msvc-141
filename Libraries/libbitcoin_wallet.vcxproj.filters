@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\wallet">
+      <UniqueIdentifier>{444f4c7f-8dee-4e22-820c-3535e78755f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\crypter.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\db.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\feebumper.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\fees.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\init.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\rpcdump.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\rpcwallet.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\wallet.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\walletdb.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\walletutil.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
