@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
-    <BTC_INCLUDES>$(BTC_ROOT);$(BTC_ROOT)\compat;$(BTC_ROOT)\consensus;$(BTC_ROOT)\policy;$(BTC_ROOT)\rpc;$(BTC_ROOT)\script;$(BTC_ROOT)\support;$(BTC_ROOT)\wallet;$(BTC_ROOT)\zmq;</BTC_INCLUDES>
+    <BTC_INCLUDES>$(BTC_ROOT);$(BTC_ROOT)\compat;$(BTC_ROOT)\consensus;$(BTC_ROOT)\policy;$(BTC_ROOT)\rpc;$(BTC_ROOT)\script;$(BTC_ROOT)\support;$(BTC_ROOT)\wallet;$(BTC_ROOT)\zmq;$(BTC_ROOT)\secp256k1;</BTC_INCLUDES>
     <UNIVALUE_INCLUDES>$(BTC_ROOT)\univalue\include</UNIVALUE_INCLUDES>
     <SECP256K1_INCLUDES>$(BTC_ROOT)\secp256k1\include</SECP256K1_INCLUDES>
     <LEVELDB_INCLUDES>$(BTC_ROOT)\leveldb\helpers\memenv;$(BTC_ROOT)\leveldb\include</LEVELDB_INCLUDES>
@@ -19,6 +19,12 @@
     <EVENT_DEPS32>event.lib</EVENT_DEPS32>
     <MINIUPNPC_LIBS32>$(MINIUPNPC_ROOT)\lib</MINIUPNPC_LIBS32>
     <MINIUPNPC_DEPS32>miniupnpc.lib</MINIUPNPC_DEPS32>
+    <MINIUPNPC_DEPS32_D>miniupnpcd.lib</MINIUPNPC_DEPS32_D>
+    <BERKELEYDB_LIBS32>$(BERKELEYDB_ROOT)\lib</BERKELEYDB_LIBS32>
+    <BERKELEYDB_DEPS32>libdb_sql62.lib;libdb_stl62.lib;libdb62.lib</BERKELEYDB_DEPS32>
+    <ZMQ_LIBS32>$(ZMQ_ROOT)\lib</ZMQ_LIBS32>
+    <ZMQ_DEPS32>libzmq-v141-mt-s-4_2_4.lib</ZMQ_DEPS32>
+    <ZMQ_DEPS32_D>libzmq-v141-mt-sgd-4_2_4.lib</ZMQ_DEPS32_D>
   </PropertyGroup>
   <PropertyGroup>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(BTC_INCLUDES)</IncludePath>
@@ -27,7 +33,7 @@
     <ClCompile>
       <AdditionalIncludeDirectories>
       </AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)_lib\$(Configuration)</AdditionalLibraryDirectories>
@@ -63,7 +69,6 @@
     </BuildMacro>
     <BuildMacro Include="OPENSSL_INCLUDES">
       <Value>$(OPENSSL_INCLUDES)</Value>
-      <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
     <BuildMacro Include="EVENT_INCLUDES">
       <Value>$(EVENT_INCLUDES)</Value>
@@ -99,6 +104,30 @@
     </BuildMacro>
     <BuildMacro Include="MINIUPNPC_DEPS32">
       <Value>$(MINIUPNPC_DEPS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="MINIUPNPC_DEPS32_D">
+      <Value>$(MINIUPNPC_DEPS32_D)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BERKELEYDB_LIBS32">
+      <Value>$(BERKELEYDB_LIBS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BERKELEYDB_DEPS32">
+      <Value>$(BERKELEYDB_DEPS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="ZMQ_LIBS32">
+      <Value>$(ZMQ_LIBS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="ZMQ_DEPS32">
+      <Value>$(ZMQ_DEPS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="ZMQ_DEPS32_D">
+      <Value>$(ZMQ_DEPS32_D)</Value>
       <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
   </ItemGroup>

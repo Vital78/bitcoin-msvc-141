@@ -14,34 +14,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\crypter.cpp">
+    <ClCompile Include="$(BTC_ROOT)\wallet\crypter.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\db.cpp">
+    <ClCompile Include="$(BTC_ROOT)\wallet\db.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\feebumper.cpp">
+    <ClCompile Include="$(BTC_ROOT)\wallet\feebumper.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\fees.cpp">
+    <ClCompile Include="$(BTC_ROOT)\wallet\fees.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\init.cpp">
+    <ClCompile Include="$(BTC_ROOT)\wallet\init.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\rpcdump.cpp">
+    <ClCompile Include="$(BTC_ROOT)\wallet\rpcdump.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\rpcwallet.cpp">
+    <ClCompile Include="$(BTC_ROOT)\wallet\rpcwallet.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\wallet.cpp">
+    <ClCompile Include="$(BTC_ROOT)\wallet\wallet.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\walletdb.cpp">
+    <ClCompile Include="$(BTC_ROOT)\wallet\walletdb.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\walletutil.cpp">
+    <ClCompile Include="$(BTC_ROOT)\wallet\walletutil.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
   </ItemGroup>

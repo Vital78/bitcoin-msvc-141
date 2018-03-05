@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{9D1EABE0-6C86-4C1D-BAE3-8267A50D69D8}</ProjectGuid>
     <RootNamespace>libbitcoin_server</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,43 +127,43 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\addrdb.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\addrman.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\blockencodings.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\bloom.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\chain.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\checkpoints.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\consensus\tx_verify.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\dbwrapper.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\httprpc.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\httpserver.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\init.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\merkleblock.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\miner.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\net.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\net_processing.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\noui.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\policy\fees.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\policy\policy.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\policy\rbf.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\pow.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rest.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\blockchain.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\mining.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\misc.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\net_rpc.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\rawtransaction.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\safemode.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\server.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\sigcache.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\timedata.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\torcontrol.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\txdb.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\txmempool.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\ui_interface.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\validation.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\validationinterface.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\versionbits.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\addrdb.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\addrman.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\blockencodings.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\bloom.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\chain.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\checkpoints.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\consensus\tx_verify.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\dbwrapper.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\httprpc.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\httpserver.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\init.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\merkleblock.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\miner.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\net.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\net_processing.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\noui.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\policy\fees.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\policy\policy.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\policy\rbf.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\pow.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\rest.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\rpc\blockchain.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\rpc\mining.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\rpc\misc.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\rpc\net_rpc.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\rpc\rawtransaction.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\rpc\safemode.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\rpc\server.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\script\sigcache.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\timedata.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\torcontrol.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\txdb.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\txmempool.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\ui_interface.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\validation.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\validationinterface.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\versionbits.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -20,56 +20,61 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\support\lockedpool.cpp">
+    <ClCompile Include="$(BTC_ROOT)\support\lockedpool.cpp">
       <Filter>Source Files\support</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\clientversion.cpp">
+    <ClCompile Include="$(BTC_ROOT)\clientversion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\compat\glibc_sanity.cpp">
+    <ClCompile Include="$(BTC_ROOT)\compat\glibc_sanity.cpp">
       <Filter>Source Files\compat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\compat\glibcxx_sanity.cpp">
+    <ClCompile Include="$(BTC_ROOT)\compat\glibcxx_sanity.cpp">
       <Filter>Source Files\compat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\compat\strnlen.cpp">
+    <ClCompile Include="$(BTC_ROOT)\compat\strnlen.cpp">
       <Filter>Source Files\compat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\fs.cpp">
+    <ClCompile Include="$(BTC_ROOT)\fs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\random.cpp">
+    <ClCompile Include="$(BTC_ROOT)\random.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\protocol.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\protocol.cpp">
       <Filter>Source Files\rpc</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\util.cpp">
-      <Filter>Source Files\rpc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\sync.cpp">
+    <ClCompile Include="$(BTC_ROOT)\sync.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\threadinterrupt.cpp">
+    <ClCompile Include="$(BTC_ROOT)\threadinterrupt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\util.cpp">
+    <ClCompile Include="$(BTC_ROOT)\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\utilmoneystr.cpp">
+    <ClCompile Include="$(BTC_ROOT)\utilmoneystr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\utilstrencodings.cpp">
+    <ClCompile Include="$(BTC_ROOT)\utilstrencodings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\utiltime.cpp">
+    <ClCompile Include="$(BTC_ROOT)\utiltime.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\chainparamsbase.cpp">
+    <ClCompile Include="$(BTC_ROOT)\chainparamsbase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\support\cleanse.cpp">
+    <ClCompile Include="$(BTC_ROOT)\support\cleanse.cpp">
       <Filter>Source Files\support</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\SDKs\source\bitcoin\src\rpc\util_rpc.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\SDKs\source\bitcoin\src\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

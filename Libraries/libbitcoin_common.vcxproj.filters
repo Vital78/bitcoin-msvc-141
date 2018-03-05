@@ -17,58 +17,58 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\ismine.cpp">
+    <ClCompile Include="$(BTC_ROOT)\script\ismine.cpp">
       <Filter>Source Files\script</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\sign.cpp">
+    <ClCompile Include="$(BTC_ROOT)\script\sign.cpp">
       <Filter>Source Files\script</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\standard.cpp">
+    <ClCompile Include="$(BTC_ROOT)\script\standard.cpp">
       <Filter>Source Files\script</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\policy\feerate.cpp">
+    <ClCompile Include="$(BTC_ROOT)\policy\feerate.cpp">
       <Filter>Source Files\policy</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\base58.cpp">
+    <ClCompile Include="$(BTC_ROOT)\base58.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\bech32.cpp">
+    <ClCompile Include="$(BTC_ROOT)\bech32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\chainparams.cpp">
+    <ClCompile Include="$(BTC_ROOT)\chainparams.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\coins.cpp">
+    <ClCompile Include="$(BTC_ROOT)\coins.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\compressor.cpp">
+    <ClCompile Include="$(BTC_ROOT)\compressor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\core_read.cpp">
+    <ClCompile Include="$(BTC_ROOT)\core_read.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\core_write.cpp">
+    <ClCompile Include="$(BTC_ROOT)\core_write.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\key.cpp">
+    <ClCompile Include="$(BTC_ROOT)\key.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\keystore.cpp">
+    <ClCompile Include="$(BTC_ROOT)\keystore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\netaddress.cpp">
+    <ClCompile Include="$(BTC_ROOT)\netaddress.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\netbase.cpp">
+    <ClCompile Include="$(BTC_ROOT)\netbase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\protocol.cpp">
+    <ClCompile Include="$(BTC_ROOT)\protocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\scheduler.cpp">
+    <ClCompile Include="$(BTC_ROOT)\scheduler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\warnings.cpp">
+    <ClCompile Include="$(BTC_ROOT)\warnings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

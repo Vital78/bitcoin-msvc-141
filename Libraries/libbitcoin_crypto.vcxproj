@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{3912CF1A-F9C1-4E4B-931E-E04AA9002657}</ProjectGuid>
     <RootNamespace>libcrypto</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,26 +128,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\aes.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\chacha20.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\hmac_sha256.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\hmac_sha512.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\ripemd160.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha1.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha256.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha256_sse4.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha512.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\aes.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\chacha20.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\hmac_sha256.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\hmac_sha512.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\ripemd160.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\sha1.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\sha256.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\sha256_sse4.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\sha512.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\aes.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\chacha20.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\common.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\hmac_sha256.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\hmac_sha512.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\ripemd160.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha1.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha256.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha512.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\aes.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\chacha20.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\common.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\hmac_sha256.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\hmac_sha512.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\ripemd160.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\sha1.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\sha256.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\sha512.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

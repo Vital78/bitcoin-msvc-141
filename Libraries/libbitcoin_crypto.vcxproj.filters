@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\aes.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\chacha20.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\hmac_sha256.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\hmac_sha512.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\ripemd160.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha1.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha256.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha256_sse4.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha512.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\aes.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\chacha20.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\hmac_sha256.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\hmac_sha512.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\ripemd160.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\sha1.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\sha256.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\sha256_sse4.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\crypto\sha512.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\aes.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\chacha20.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\common.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\hmac_sha256.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\hmac_sha512.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\ripemd160.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha1.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha256.h" />
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\crypto\sha512.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\aes.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\chacha20.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\common.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\hmac_sha256.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\hmac_sha512.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\ripemd160.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\sha1.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\sha256.h" />
+    <ClInclude Include="$(BTC_ROOT)\crypto\sha512.h" />
   </ItemGroup>
 </Project>

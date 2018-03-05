@@ -23,115 +23,115 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\consensus\tx_verify.cpp">
+    <ClCompile Include="$(BTC_ROOT)\consensus\tx_verify.cpp">
       <Filter>Source Files\consensus</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\policy\fees.cpp">
+    <ClCompile Include="$(BTC_ROOT)\policy\fees.cpp">
       <Filter>Source Files\policy</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\policy\policy.cpp">
+    <ClCompile Include="$(BTC_ROOT)\policy\policy.cpp">
       <Filter>Source Files\policy</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\policy\rbf.cpp">
+    <ClCompile Include="$(BTC_ROOT)\policy\rbf.cpp">
       <Filter>Source Files\policy</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\blockchain.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\blockchain.cpp">
       <Filter>Source Files\rpc</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\mining.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\mining.cpp">
       <Filter>Source Files\rpc</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\misc.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\misc.cpp">
       <Filter>Source Files\rpc</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\rawtransaction.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\rawtransaction.cpp">
       <Filter>Source Files\rpc</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\safemode.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\safemode.cpp">
       <Filter>Source Files\rpc</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\server.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\server.cpp">
       <Filter>Source Files\rpc</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\sigcache.cpp">
+    <ClCompile Include="$(BTC_ROOT)\script\sigcache.cpp">
       <Filter>Source Files\script</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\addrdb.cpp">
+    <ClCompile Include="$(BTC_ROOT)\addrdb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\addrman.cpp">
+    <ClCompile Include="$(BTC_ROOT)\addrman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\blockencodings.cpp">
+    <ClCompile Include="$(BTC_ROOT)\blockencodings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\bloom.cpp">
+    <ClCompile Include="$(BTC_ROOT)\bloom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\chain.cpp">
+    <ClCompile Include="$(BTC_ROOT)\chain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\checkpoints.cpp">
+    <ClCompile Include="$(BTC_ROOT)\checkpoints.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\dbwrapper.cpp">
+    <ClCompile Include="$(BTC_ROOT)\dbwrapper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\httprpc.cpp">
+    <ClCompile Include="$(BTC_ROOT)\httprpc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\httpserver.cpp">
+    <ClCompile Include="$(BTC_ROOT)\httpserver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\init.cpp">
+    <ClCompile Include="$(BTC_ROOT)\init.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\merkleblock.cpp">
+    <ClCompile Include="$(BTC_ROOT)\merkleblock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\miner.cpp">
+    <ClCompile Include="$(BTC_ROOT)\miner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\net.cpp">
+    <ClCompile Include="$(BTC_ROOT)\net.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\net_processing.cpp">
+    <ClCompile Include="$(BTC_ROOT)\net_processing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\noui.cpp">
+    <ClCompile Include="$(BTC_ROOT)\noui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\pow.cpp">
+    <ClCompile Include="$(BTC_ROOT)\pow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rest.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\timedata.cpp">
+    <ClCompile Include="$(BTC_ROOT)\timedata.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\torcontrol.cpp">
+    <ClCompile Include="$(BTC_ROOT)\torcontrol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\txdb.cpp">
+    <ClCompile Include="$(BTC_ROOT)\txdb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\txmempool.cpp">
+    <ClCompile Include="$(BTC_ROOT)\txmempool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\ui_interface.cpp">
+    <ClCompile Include="$(BTC_ROOT)\ui_interface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\validation.cpp">
+    <ClCompile Include="$(BTC_ROOT)\validation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\validationinterface.cpp">
+    <ClCompile Include="$(BTC_ROOT)\validationinterface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\versionbits.cpp">
+    <ClCompile Include="$(BTC_ROOT)\versionbits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\rpc\net_rpc.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\net_rpc.cpp">
       <Filter>Source Files\rpc</Filter>
     </ClCompile>
   </ItemGroup>

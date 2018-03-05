@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{28837D07-3CAD-4099-9549-8407B8F0D398}</ProjectGuid>
     <RootNamespace>libbitcoin_zmq</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,9 +129,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\zmq\zmqabstractnotifier.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\zmq\zmqnotificationinterface.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\zmq\zmqpublishnotifier.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\zmq\zmqabstractnotifier.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\zmq\zmqnotificationinterface.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\zmq\zmqpublishnotifier.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

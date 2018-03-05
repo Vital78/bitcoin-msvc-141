@@ -29,96 +29,96 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\consensus\merkle.h">
+    <ClInclude Include="$(BTC_ROOT)\consensus\merkle.h">
       <Filter>Header Files\consensus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\consensus\params.h">
+    <ClInclude Include="$(BTC_ROOT)\consensus\params.h">
       <Filter>Header Files\consensus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\consensus\validation.h">
+    <ClInclude Include="$(BTC_ROOT)\consensus\validation.h">
       <Filter>Header Files\consensus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\primitives\block.h">
+    <ClInclude Include="$(BTC_ROOT)\primitives\block.h">
       <Filter>Header Files\primitives</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\primitives\transaction.h">
+    <ClInclude Include="$(BTC_ROOT)\primitives\transaction.h">
       <Filter>Header Files\primitives</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\script\interpreter.h">
+    <ClInclude Include="$(BTC_ROOT)\script\interpreter.h">
       <Filter>Header Files\script</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\script\script.h">
+    <ClInclude Include="$(BTC_ROOT)\script\script.h">
       <Filter>Header Files\script</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\script\script_error.h">
+    <ClInclude Include="$(BTC_ROOT)\script\script_error.h">
       <Filter>Header Files\script</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\amount.h">
+    <ClInclude Include="$(BTC_ROOT)\amount.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\arith_uint256.h">
+    <ClInclude Include="$(BTC_ROOT)\arith_uint256.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\hash.h">
+    <ClInclude Include="$(BTC_ROOT)\hash.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\prevector.h">
+    <ClInclude Include="$(BTC_ROOT)\prevector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\pubkey.h">
+    <ClInclude Include="$(BTC_ROOT)\pubkey.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\serialize.h">
+    <ClInclude Include="$(BTC_ROOT)\serialize.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\tinyformat.h">
+    <ClInclude Include="$(BTC_ROOT)\tinyformat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\uint256.h">
+    <ClInclude Include="$(BTC_ROOT)\uint256.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\utilstrencodings.h">
+    <ClInclude Include="$(BTC_ROOT)\utilstrencodings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\_Developer\Source\bitcoin\version.h">
+    <ClInclude Include="$(BTC_ROOT)\version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\consensus\merkle.cpp">
+    <ClCompile Include="$(BTC_ROOT)\consensus\merkle.cpp">
       <Filter>Source Files\consensus</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\primitives\block.cpp">
+    <ClCompile Include="$(BTC_ROOT)\primitives\block.cpp">
       <Filter>Source Files\primitives</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\primitives\transaction.cpp">
+    <ClCompile Include="$(BTC_ROOT)\primitives\transaction.cpp">
       <Filter>Source Files\primitives</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\bitcoinconsensus.cpp">
+    <ClCompile Include="$(BTC_ROOT)\script\bitcoinconsensus.cpp">
       <Filter>Source Files\script</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\interpreter.cpp">
+    <ClCompile Include="$(BTC_ROOT)\script\interpreter.cpp">
       <Filter>Source Files\script</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\script.cpp">
+    <ClCompile Include="$(BTC_ROOT)\script\script.cpp">
       <Filter>Source Files\script</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\script\script_error.cpp">
+    <ClCompile Include="$(BTC_ROOT)\script\script_error.cpp">
       <Filter>Source Files\script</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\arith_uint256.cpp">
+    <ClCompile Include="$(BTC_ROOT)\arith_uint256.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\hash.cpp">
+    <ClCompile Include="$(BTC_ROOT)\hash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\pubkey.cpp">
+    <ClCompile Include="$(BTC_ROOT)\pubkey.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\uint256.cpp">
+    <ClCompile Include="$(BTC_ROOT)\uint256.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\utilstrencodings.cpp">
+    <ClCompile Include="$(BTC_ROOT)\utilstrencodings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

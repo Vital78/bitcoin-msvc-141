@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{0C0B083C-0C90-4622-8738-192D1497B698}</ProjectGuid>
     <RootNamespace>libbitcoin_wallet</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,16 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\crypter.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\db.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\feebumper.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\fees.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\init.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\rpcdump.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\rpcwallet.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\wallet.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\walletdb.cpp" />
-    <ClCompile Include="..\..\..\..\_Developer\Source\bitcoin\wallet\walletutil.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\wallet\crypter.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\wallet\db.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\wallet\feebumper.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\wallet\fees.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\wallet\init.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\wallet\rpcdump.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\wallet\rpcwallet.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\wallet\wallet.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\wallet\walletdb.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\wallet\walletutil.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
