@@ -11,7 +11,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\SDKs\source\bitcoin\src\leveldb\port\port_posix_sse.cc">
+    <ClCompile Include="$(BTC_ROOT)\leveldb\port\port_posix_sse.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

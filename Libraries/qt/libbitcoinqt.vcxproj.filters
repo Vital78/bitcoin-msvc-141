@@ -35,367 +35,367 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\addressbookpage.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\addressbookpage.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\addresstablemodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\addresstablemodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\askpassphrasedialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\askpassphrasedialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bantablemodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\bantablemodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinaddressvalidator.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinaddressvalidator.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinamountfield.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinamountfield.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoingui.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoingui.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinunits.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinunits.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\callback.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\callback.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\clientmodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\clientmodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\coincontroldialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\coincontroldialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\coincontroltreewidget.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\coincontroltreewidget.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\csvmodelwriter.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\csvmodelwriter.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\editaddressdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\editaddressdialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\guiutil.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\guiutil.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\intro.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\intro.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\macdockiconhandler.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\macdockiconhandler.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\macnotificationhandler.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\macnotificationhandler.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\modaloverlay.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\modaloverlay.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\notificator.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\notificator.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\openuridialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\openuridialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\optionsdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\optionsdialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\optionsmodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\optionsmodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\overviewpage.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\overviewpage.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\paymentserver.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\paymentserver.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\peertablemodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\peertablemodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\qvalidatedlineedit.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\qvalidatedlineedit.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\qvaluecombobox.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\qvaluecombobox.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\receivecoinsdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\receivecoinsdialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\receiverequestdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\receiverequestdialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\recentrequeststablemodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\recentrequeststablemodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\rpcconsole.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\rpcconsole.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\sendcoinsdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\sendcoinsdialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\sendcoinsentry.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\sendcoinsentry.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\signverifymessagedialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\signverifymessagedialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\splashscreen.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\splashscreen.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\trafficgraphwidget.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\trafficgraphwidget.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiondesc.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\transactiondesc.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiondescdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\transactiondescdialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionfilterproxy.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\transactionfilterproxy.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiontablemodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\transactiontablemodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionview.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\transactionview.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\utilitydialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\utilitydialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletframe.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\walletframe.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletmodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\walletmodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletview.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\walletview.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinamountfield.cpp">
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinamountfield.cpp">
       <Filter>Source Files\base</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\rpcconsole.cpp">
+    <QtMoc Include="$(BTC_ROOT)\qt\rpcconsole.cpp">
       <Filter>Source Files\base</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\overviewpage.cpp">
+    <QtMoc Include="$(BTC_ROOT)\qt\overviewpage.cpp">
       <Filter>Source Files\wallet</Filter>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\intro.cpp">
+    <QtMoc Include="$(BTC_ROOT)\qt\intro.cpp">
       <Filter>Source Files\base</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\guiconstants.h">
+    <ClInclude Include="$(BTC_ROOT)\qt\guiconstants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\networkstyle.h">
+    <ClInclude Include="$(BTC_ROOT)\qt\networkstyle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\paymentrequestplus.h">
+    <ClInclude Include="$(BTC_ROOT)\qt\paymentrequestplus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\platformstyle.h">
+    <ClInclude Include="$(BTC_ROOT)\qt\platformstyle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionrecord.h">
+    <ClInclude Include="$(BTC_ROOT)\qt\transactionrecord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletmodeltransaction.h">
+    <ClInclude Include="$(BTC_ROOT)\qt\walletmodeltransaction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\winshutdownmonitor.h">
+    <ClInclude Include="$(BTC_ROOT)\qt\winshutdownmonitor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bantablemodel.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\bantablemodel.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinaddressvalidator.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\bitcoinaddressvalidator.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoingui.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\bitcoingui.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinunits.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\bitcoinunits.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\clientmodel.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\clientmodel.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\csvmodelwriter.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\csvmodelwriter.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\guiutil.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\guiutil.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\modaloverlay.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\modaloverlay.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\networkstyle.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\networkstyle.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\notificator.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\notificator.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\optionsdialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\optionsdialog.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\optionsmodel.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\optionsmodel.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\peertablemodel.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\peertablemodel.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\platformstyle.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\platformstyle.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\qvalidatedlineedit.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\qvalidatedlineedit.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\qvaluecombobox.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\qvaluecombobox.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\splashscreen.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\splashscreen.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\trafficgraphwidget.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\trafficgraphwidget.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\utilitydialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\utilitydialog.cpp">
       <Filter>Source Files\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\addressbookpage.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\addressbookpage.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\addresstablemodel.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\addresstablemodel.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\askpassphrasedialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\askpassphrasedialog.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\coincontroldialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\coincontroldialog.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\coincontroltreewidget.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\coincontroltreewidget.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\editaddressdialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\editaddressdialog.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\openuridialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\openuridialog.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\paymentrequestplus.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\paymentrequestplus.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\paymentserver.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\paymentserver.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\receivecoinsdialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\receivecoinsdialog.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\receiverequestdialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\receiverequestdialog.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\recentrequeststablemodel.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\recentrequeststablemodel.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\sendcoinsdialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\sendcoinsdialog.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\sendcoinsentry.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\sendcoinsentry.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\signverifymessagedialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\signverifymessagedialog.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiondesc.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\transactiondesc.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiondescdialog.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\transactiondescdialog.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionfilterproxy.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\transactionfilterproxy.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionrecord.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\transactionrecord.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiontablemodel.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\transactiontablemodel.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionview.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\transactionview.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletframe.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\walletframe.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletmodel.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\walletmodel.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletmodeltransaction.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\walletmodeltransaction.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletview.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\walletview.cpp">
       <Filter>Source Files\wallet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\winshutdownmonitor.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\winshutdownmonitor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\addressbookpage.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\addressbookpage.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\askpassphrasedialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\askpassphrasedialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\coincontroldialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\coincontroldialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\debugwindow.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\debugwindow.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\editaddressdialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\editaddressdialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\helpmessagedialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\helpmessagedialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\intro.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\intro.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\modaloverlay.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\modaloverlay.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\openuridialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\openuridialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\optionsdialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\optionsdialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\overviewpage.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\overviewpage.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\receivecoinsdialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\receivecoinsdialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\receiverequestdialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\receiverequestdialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\sendcoinsdialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\sendcoinsdialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\sendcoinsentry.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\sendcoinsentry.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\signverifymessagedialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\signverifymessagedialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\transactiondescdialog.ui">
+    <QtUic Include="$(BTC_ROOT)\qt\forms\transactiondescdialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

@@ -11,280 +11,280 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\addressbookpage.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\addressbookpage.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\addresstablemodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\addresstablemodel.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\askpassphrasedialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\askpassphrasedialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bantablemodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\bantablemodel.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinaddressvalidator.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinaddressvalidator.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinamountfield.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinamountfield.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoingui.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoingui.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinunits.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinunits.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\callback.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\callback.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NOMINMAX;UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\clientmodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\clientmodel.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\coincontroldialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\coincontroldialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\coincontroltreewidget.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\coincontroltreewidget.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\csvmodelwriter.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\csvmodelwriter.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\editaddressdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\editaddressdialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\guiconstants.h" />
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\networkstyle.h" />
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\paymentrequestplus.h" />
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\platformstyle.h" />
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionrecord.h" />
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletmodeltransaction.h" />
-    <ClInclude Include="..\..\..\..\SDKs\source\bitcoin\src\qt\winshutdownmonitor.h" />
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletview.h">
+    <ClInclude Include="$(BTC_ROOT)\qt\guiconstants.h" />
+    <ClInclude Include="$(BTC_ROOT)\qt\networkstyle.h" />
+    <ClInclude Include="$(BTC_ROOT)\qt\paymentrequestplus.h" />
+    <ClInclude Include="$(BTC_ROOT)\qt\platformstyle.h" />
+    <ClInclude Include="$(BTC_ROOT)\qt\transactionrecord.h" />
+    <ClInclude Include="$(BTC_ROOT)\qt\walletmodeltransaction.h" />
+    <ClInclude Include="$(BTC_ROOT)\qt\winshutdownmonitor.h" />
+    <QtMoc Include="$(BTC_ROOT)\qt\walletview.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletmodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\walletmodel.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletframe.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\walletframe.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\utilitydialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\utilitydialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionview.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\transactionview.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiontablemodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\transactiontablemodel.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionfilterproxy.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\transactionfilterproxy.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiondescdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\transactiondescdialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiondesc.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\transactiondesc.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\trafficgraphwidget.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\trafficgraphwidget.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\splashscreen.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\splashscreen.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\signverifymessagedialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\signverifymessagedialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\sendcoinsentry.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\sendcoinsentry.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\sendcoinsdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\sendcoinsdialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\rpcconsole.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\rpcconsole.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\recentrequeststablemodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\recentrequeststablemodel.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\receiverequestdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\receiverequestdialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\receivecoinsdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\receivecoinsdialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\qvaluecombobox.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\qvaluecombobox.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\qvalidatedlineedit.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\qvalidatedlineedit.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\peertablemodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\peertablemodel.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\paymentserver.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\paymentserver.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\overviewpage.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\overviewpage.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\optionsmodel.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\optionsmodel.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\optionsdialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\optionsdialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\openuridialog.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\openuridialog.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\notificator.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\notificator.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\modaloverlay.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\modaloverlay.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\macnotificationhandler.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\macnotificationhandler.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NOMINMAX;UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\macdockiconhandler.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\macdockiconhandler.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NOMINMAX;UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\intro.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\intro.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\guiutil.h">
+    <QtMoc Include="$(BTC_ROOT)\qt\guiutil.h">
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\addressbookpage.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\addresstablemodel.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\askpassphrasedialog.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bantablemodel.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinaddressvalidator.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\coincontroldialog.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\coincontroltreewidget.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\editaddressdialog.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\openuridialog.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\winshutdownmonitor.cpp" />
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\overviewpage.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\addressbookpage.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\addresstablemodel.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\askpassphrasedialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\bantablemodel.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\bitcoinaddressvalidator.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\coincontroldialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\coincontroltreewidget.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\editaddressdialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\openuridialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\winshutdownmonitor.cpp" />
+    <QtMoc Include="$(BTC_ROOT)\qt\overviewpage.cpp">
       <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
       <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
-      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\..\SDKs\source\bitcoin\src\qt\overviewpage.cpp</InputFile>
-      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\SDKs\source\bitcoin\src\qt\overviewpage.cpp</InputFile>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(BTC_ROOT)\qt\overviewpage.cpp</InputFile>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(BTC_ROOT)\qt\overviewpage.cpp</InputFile>
     </QtMoc>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\paymentrequestplus.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\paymentserver.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\receivecoinsdialog.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\receiverequestdialog.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\recentrequeststablemodel.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\sendcoinsdialog.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\sendcoinsentry.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\signverifymessagedialog.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiondesc.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiondescdialog.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionfilterproxy.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionrecord.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactiontablemodel.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\transactionview.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletframe.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletmodel.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletmodeltransaction.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\walletview.cpp" />
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinamountfield.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\paymentrequestplus.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\paymentserver.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\receivecoinsdialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\receiverequestdialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\recentrequeststablemodel.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\sendcoinsdialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\sendcoinsentry.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\signverifymessagedialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\transactiondesc.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\transactiondescdialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\transactionfilterproxy.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\transactionrecord.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\transactiontablemodel.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\transactionview.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\walletframe.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\walletmodel.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\walletmodeltransaction.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\walletview.cpp" />
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinamountfield.cpp">
       <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
       <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
-      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinamountfield.cpp</InputFile>
-      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinamountfield.cpp</InputFile>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(BTC_ROOT)\qt\bitcoinamountfield.cpp</InputFile>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(BTC_ROOT)\qt\bitcoinamountfield.cpp</InputFile>
     </QtMoc>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoingui.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\bitcoinunits.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\clientmodel.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\csvmodelwriter.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\guiutil.cpp" />
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\intro.cpp">
+    <ClCompile Include="$(BTC_ROOT)\qt\bitcoingui.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\bitcoinunits.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\clientmodel.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\csvmodelwriter.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\guiutil.cpp" />
+    <QtMoc Include="$(BTC_ROOT)\qt\intro.cpp">
       <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
       <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
-      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\..\SDKs\source\bitcoin\src\qt\intro.cpp</InputFile>
-      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\SDKs\source\bitcoin\src\qt\intro.cpp</InputFile>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(BTC_ROOT)\qt\intro.cpp</InputFile>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(BTC_ROOT)\qt\intro.cpp</InputFile>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;$(QTDIR)\include\QtNetwork;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtGui;$(BOOST_INCLUDES)\.;$(OPENSSL_INCLUDES)\.;$(BERKELEYDB_INCLUDES)\.;$(LEVELDB_INCLUDES)\.;$(PROTOBUF_INCLUDES)\.</IncludePath>
     </QtMoc>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\modaloverlay.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\networkstyle.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\notificator.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\optionsdialog.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\optionsmodel.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\peertablemodel.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\platformstyle.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\qvalidatedlineedit.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\qvaluecombobox.cpp" />
-    <QtMoc Include="..\..\..\..\SDKs\source\bitcoin\src\qt\rpcconsole.cpp">
-      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\..\SDKs\source\bitcoin\src\qt\rpcconsole.cpp</InputFile>
+    <ClCompile Include="$(BTC_ROOT)\qt\modaloverlay.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\networkstyle.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\notificator.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\optionsdialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\optionsmodel.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\peertablemodel.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\platformstyle.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\qvalidatedlineedit.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\qvaluecombobox.cpp" />
+    <QtMoc Include="$(BTC_ROOT)\qt\rpcconsole.cpp">
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(BTC_ROOT)\qt\rpcconsole.cpp</InputFile>
       <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
-      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\SDKs\source\bitcoin\src\qt\rpcconsole.cpp</InputFile>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(BTC_ROOT)\qt\rpcconsole.cpp</InputFile>
       <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
       <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;NOMINMAX;UNICODE;_UNICODE;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;LIBBITCOINQT_LIB</Define>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtDBus;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtGui;$(BOOST_INCLUDES)\.;$(OPENSSL_INCLUDES)\.;$(BERKELEYDB_INCLUDES)\.;$(LEVELDB_INCLUDES)\.;$(PROTOBUF_INCLUDES)\.</IncludePath>
     </QtMoc>
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\splashscreen.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\trafficgraphwidget.cpp" />
-    <ClCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\utilitydialog.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\splashscreen.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\trafficgraphwidget.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\qt\utilitydialog.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\addressbookpage.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\askpassphrasedialog.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\coincontroldialog.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\debugwindow.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\editaddressdialog.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\helpmessagedialog.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\intro.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\modaloverlay.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\openuridialog.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\optionsdialog.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\overviewpage.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\receivecoinsdialog.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\receiverequestdialog.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\sendcoinsdialog.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\sendcoinsentry.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\signverifymessagedialog.ui" />
-    <QtUic Include="..\..\..\..\SDKs\source\bitcoin\src\qt\forms\transactiondescdialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\addressbookpage.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\askpassphrasedialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\coincontroldialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\debugwindow.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\editaddressdialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\helpmessagedialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\intro.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\modaloverlay.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\openuridialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\optionsdialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\overviewpage.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\receivecoinsdialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\receiverequestdialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\sendcoinsdialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\sendcoinsentry.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\signverifymessagedialog.ui" />
+    <QtUic Include="$(BTC_ROOT)\qt\forms\transactiondescdialog.ui" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
     <Keyword>Qt4VSv1.0</Keyword>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
