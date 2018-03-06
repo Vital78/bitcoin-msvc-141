@@ -25,6 +25,7 @@
     <ZMQ_LIBS32>$(ZMQ_ROOT)\lib</ZMQ_LIBS32>
     <ZMQ_DEPS32>libzmq-v141-mt-s-4_2_4.lib</ZMQ_DEPS32>
     <ZMQ_DEPS32_D>libzmq-v141-mt-sgd-4_2_4.lib</ZMQ_DEPS32_D>
+    <PROTOBUF_INCLUDES>$(PROTOBUF_ROOT)\include</PROTOBUF_INCLUDES>
   </PropertyGroup>
   <PropertyGroup>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(BTC_INCLUDES)</IncludePath>
@@ -128,6 +129,10 @@
     </BuildMacro>
     <BuildMacro Include="ZMQ_DEPS32_D">
       <Value>$(ZMQ_DEPS32_D)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PROTOBUF_INCLUDES">
+      <Value>$(PROTOBUF_INCLUDES)</Value>
       <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
   </ItemGroup>
