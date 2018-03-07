@@ -145,6 +145,7 @@
     <ClCompile Include="$(BTC_ROOT)\script\sign.cpp" />
     <ClCompile Include="$(BTC_ROOT)\script\standard.cpp" />
     <ClCompile Include="$(BTC_ROOT)\warnings.cpp" />
+    <ClCompile Include="..\..\..\SDKs\source\bitcoin\src\key_io.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

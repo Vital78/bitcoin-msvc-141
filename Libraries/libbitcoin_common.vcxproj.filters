@@ -71,5 +71,8 @@
     <ClCompile Include="$(BTC_ROOT)\warnings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\SDKs\source\bitcoin\src\key_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -137,9 +137,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\SDKs\source\bitcoin\src\bitcoin-tx.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="..\..\..\SDKs\source\bitcoin\src\bitcoin-tx-res.rc" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

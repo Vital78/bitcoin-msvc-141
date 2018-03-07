@@ -15,9 +15,4 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="..\..\..\SDKs\source\bitcoin\src\bitcoin-tx-res.rc">
-      <Filter>Source Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
 </Project>

@@ -11,11 +11,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(BTC_ROOT)\bitcoind-res.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="$(BTC_ROOT)\bitcoind.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -8,7 +8,4 @@
   <ItemGroup>
     <ClCompile Include="$(BTC_ROOT)\bitcoin-cli.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="$(BTC_ROOT)\bitcoin-cli-res.rc" />
-  </ItemGroup>
 </Project>

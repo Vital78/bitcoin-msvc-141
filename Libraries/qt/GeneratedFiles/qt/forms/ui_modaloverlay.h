@@ -236,6 +236,7 @@ public:
 
         closeButton = new QPushButton(contentWidget);
         closeButton->setObjectName(QStringLiteral("closeButton"));
+        closeButton->setFocusPolicy(Qt::StrongFocus);
 
         horizontalLayoutButtons->addWidget(closeButton);
 
@@ -252,6 +253,9 @@ public:
 
 
         retranslateUi(ModalOverlay);
+
+        closeButton->setDefault(true);
+
 
         QMetaObject::connectSlotsByName(ModalOverlay);
     } // setupUi
