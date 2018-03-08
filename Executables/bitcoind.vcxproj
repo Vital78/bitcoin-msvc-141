@@ -92,7 +92,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(BERKELEYDB_LIBS32);$(ZMQ_LIBS32);$(BOOST_LIBS32);$(OPENSSL_LIBS32);$(EVENT_LIBS32);$(MINIUPNPC_LIBS32);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>$(ZMQ_DEPS32_D);$(MINIUPNPC_DEPS32_D);leveldb\libleveldb_sse42d.lib;leveldb\libleveldbd.lib;leveldb\libmemonvd.lib;$(BERKELEYDB_DEPS32);libsecp256k1d.lib;libbitcoin_utild.lib;libbitcoin_commond.lib;libbitcoin_serverd.lib;libbitcoin_consensusd.lib;libbitcoin_walletd.lib;libbitcoin_zmqd.lib;crypto\libbitcoin_cryptod.lib;univalue\libunivalued.lib;$(OPENSSL_DEPS32);$(EVENT_DEPS32);ws2_32.lib;shlwapi.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(ZMQ_DEPS32_D);$(MINIUPNPC_DEPS32_D);leveldb\libleveldb_sse42d.lib;leveldb\libleveldbd.lib;leveldb\libmemonvd.lib;$(BERKELEYDB_DEPS32_D);libsecp256k1d.lib;libbitcoin_utild.lib;libbitcoin_commond.lib;libbitcoin_serverd.lib;libbitcoin_consensusd.lib;libbitcoin_walletd.lib;libbitcoin_zmqd.lib;crypto\libbitcoin_cryptod.lib;univalue\libunivalued.lib;$(OPENSSL_DEPS32);$(EVENT_DEPS32);ws2_32.lib;shlwapi.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

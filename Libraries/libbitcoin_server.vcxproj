@@ -104,6 +104,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>$(LEVELDB_INCLUDES);$(UNIVALUE_INCLUDES);$(BOOST_INCLUDES);$(EVENT_INCLUDES);$(MINIUPNPC_INCLUDES);$(BERKELEYDB_INCLUDES);$(OPENSSL_INCLUDES)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

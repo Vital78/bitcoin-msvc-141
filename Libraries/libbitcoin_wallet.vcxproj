@@ -89,6 +89,7 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>$(UNIVALUE_INCLUDES);$(BOOST_INCLUDES);$(BERKELEYDB_INCLUDES)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NOMINMAX;WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

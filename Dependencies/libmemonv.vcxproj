@@ -101,7 +101,6 @@
       <AdditionalIncludeDirectories>$(BTC_ROOT)\leveldb;$(BTC_ROOT)\leveldb\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LEVELDB_PLATFORM_WINDOWS</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -121,7 +120,6 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>$(BTC_ROOT)\leveldb;$(BTC_ROOT)\leveldb\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LEVELDB_PLATFORM_WINDOWS</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

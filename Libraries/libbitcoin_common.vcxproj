@@ -89,6 +89,7 @@
       <SDLCheck>
       </SDLCheck>
       <AdditionalIncludeDirectories>$(UNIVALUE_INCLUDES);$(SECP256K1_INCLUDES);$(BOOST_INCLUDES)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

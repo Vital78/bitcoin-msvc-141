@@ -21,11 +21,15 @@
     <MINIUPNPC_DEPS32>miniupnpc.lib</MINIUPNPC_DEPS32>
     <MINIUPNPC_DEPS32_D>miniupnpcd.lib</MINIUPNPC_DEPS32_D>
     <BERKELEYDB_LIBS32>$(BERKELEYDB_ROOT)\lib</BERKELEYDB_LIBS32>
-    <BERKELEYDB_DEPS32>libdb_sql62.lib;libdb_stl62.lib;libdb62.lib</BERKELEYDB_DEPS32>
+    <BERKELEYDB_DEPS32>libdb62.lib</BERKELEYDB_DEPS32>
+    <BERKELEYDB_DEPS32_D>libdb62d.lib</BERKELEYDB_DEPS32_D>
     <ZMQ_LIBS32>$(ZMQ_ROOT)\lib</ZMQ_LIBS32>
     <ZMQ_DEPS32>libzmq-v141-mt-s-4_2_4.lib</ZMQ_DEPS32>
     <ZMQ_DEPS32_D>libzmq-v141-mt-sgd-4_2_4.lib</ZMQ_DEPS32_D>
     <PROTOBUF_INCLUDES>$(PROTOBUF_ROOT)\include</PROTOBUF_INCLUDES>
+    <PROTOBUF_LIBS32>$(PROTOBUF_ROOT)\lib</PROTOBUF_LIBS32>
+    <PROTOBUF_DEPS32_D>libprotobufd.lib</PROTOBUF_DEPS32_D>
+    <PROTOBUF_DEPS32>libprotobuf.lib</PROTOBUF_DEPS32>
   </PropertyGroup>
   <PropertyGroup>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(BTC_INCLUDES)</IncludePath>
@@ -35,6 +39,7 @@
       <AdditionalIncludeDirectories>
       </AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)_lib\$(Configuration)</AdditionalLibraryDirectories>
@@ -113,10 +118,13 @@
     </BuildMacro>
     <BuildMacro Include="BERKELEYDB_LIBS32">
       <Value>$(BERKELEYDB_LIBS32)</Value>
-      <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
     <BuildMacro Include="BERKELEYDB_DEPS32">
       <Value>$(BERKELEYDB_DEPS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BERKELEYDB_DEPS32_D">
+      <Value>$(BERKELEYDB_DEPS32_D)</Value>
       <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
     <BuildMacro Include="ZMQ_LIBS32">
@@ -133,6 +141,18 @@
     </BuildMacro>
     <BuildMacro Include="PROTOBUF_INCLUDES">
       <Value>$(PROTOBUF_INCLUDES)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PROTOBUF_LIBS32">
+      <Value>$(PROTOBUF_LIBS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PROTOBUF_DEPS32_D">
+      <Value>$(PROTOBUF_DEPS32_D)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PROTOBUF_DEPS32">
+      <Value>$(PROTOBUF_DEPS32)</Value>
       <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
   </ItemGroup>

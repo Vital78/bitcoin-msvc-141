@@ -100,7 +100,6 @@
       <PreprocessorDefinitions>LEVELDB_PLATFORM_WINDOWS;_CRT_SECURE_NO_WARNINGS;ssize_t=SSIZE_T;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ForcedIncludeFiles>BaseTsd.h</ForcedIncludeFiles>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -121,7 +120,6 @@
       </SDLCheck>
       <AdditionalIncludeDirectories>$(BTC_ROOT)\leveldb;$(BTC_ROOT)\leveldb\include;$(BTC_ROOT)\compat;</AdditionalIncludeDirectories>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PreprocessorDefinitions>LEVELDB_PLATFORM_WINDOWS;_CRT_SECURE_NO_WARNINGS;ssize_t=SSIZE_T;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ForcedIncludeFiles>BaseTsd.h</ForcedIncludeFiles>
     </ClCompile>
