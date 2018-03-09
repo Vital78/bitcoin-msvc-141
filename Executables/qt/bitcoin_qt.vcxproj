@@ -171,6 +171,9 @@
       <Project>{34d3e449-a36e-4f30-b7df-1a6b73979566}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\res\bitcoin-qt-res.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
     <Import Project="$(QtMsBuild)\qt.targets" />

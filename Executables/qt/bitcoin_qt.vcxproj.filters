@@ -16,4 +16,9 @@
       <Filter>Source Files</Filter>
     </QtMoc>
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\SDKs\source\bitcoin\src\qt\res\bitcoin-qt-res.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
 </Project>
