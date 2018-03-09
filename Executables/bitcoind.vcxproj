@@ -135,6 +135,44 @@
   <ItemGroup>
     <ClCompile Include="$(BTC_ROOT)\bitcoind.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dependencies\libleveldb.vcxproj">
+      <Project>{922c3b12-01ce-4b2d-9cf8-27d61b6bb15c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dependencies\libleveldb_sse42.vcxproj">
+      <Project>{5d1afca2-371a-4fa1-8f74-6191ed5e3679}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dependencies\libmemonv.vcxproj">
+      <Project>{7f8fd567-293c-4675-8a26-7aed97f307f4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dependencies\libsecp256k1.vcxproj">
+      <Project>{66677d9f-58b5-466e-ac31-3e6690915a44}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dependencies\libunivalue.vcxproj">
+      <Project>{e09c0d69-e758-4da6-8d94-b50805320b3f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_common.vcxproj">
+      <Project>{0d6a41a6-100a-49fc-978e-fdf5ce60245c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_consensus.vcxproj">
+      <Project>{a40cb949-de40-4303-8092-ce8f68161615}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_crypto.vcxproj">
+      <Project>{3912cf1a-f9c1-4e4b-931e-e04aa9002657}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_server.vcxproj">
+      <Project>{9d1eabe0-6c86-4c1d-bae3-8267a50d69d8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_util.vcxproj">
+      <Project>{b8853553-2693-4478-8333-d09025f5905a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_wallet.vcxproj">
+      <Project>{0c0b083c-0c90-4622-8738-192d1497b698}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_zmq.vcxproj">
+      <Project>{28837d07-3cad-4099-9549-8407b8f0d398}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

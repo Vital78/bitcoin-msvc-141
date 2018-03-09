@@ -10,15 +10,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\SDKs\source\bitcoin\src\secp256k1\include\secp256k1.h">
+    <ClInclude Include="$(BTC_ROOT)\secp256k1\include\secp256k1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\SDKs\source\bitcoin\src\secp256k1\src\libsecp256k1-config.h">
+    <ClInclude Include="$(BTC_ROOT)\secp256k1\src\libsecp256k1-config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\SDKs\source\bitcoin\src\secp256k1\src\secp256k1.c">
+    <ClCompile Include="$(BTC_ROOT)\secp256k1\src\secp256k1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

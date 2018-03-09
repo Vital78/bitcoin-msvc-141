@@ -135,6 +135,20 @@
   <ItemGroup>
     <ClCompile Include="$(BTC_ROOT)\bitcoin-cli.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dependencies\libunivalue.vcxproj">
+      <Project>{e09c0d69-e758-4da6-8d94-b50805320b3f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_cli.vcxproj">
+      <Project>{c11c3fbe-24eb-4680-bb36-c62c968e8ee7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_crypto.vcxproj">
+      <Project>{3912cf1a-f9c1-4e4b-931e-e04aa9002657}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_util.vcxproj">
+      <Project>{b8853553-2693-4478-8333-d09025f5905a}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

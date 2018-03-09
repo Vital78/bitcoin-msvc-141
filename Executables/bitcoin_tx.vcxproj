@@ -137,6 +137,26 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\SDKs\source\bitcoin\src\bitcoin-tx.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dependencies\libsecp256k1.vcxproj">
+      <Project>{66677d9f-58b5-466e-ac31-3e6690915a44}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dependencies\libunivalue.vcxproj">
+      <Project>{e09c0d69-e758-4da6-8d94-b50805320b3f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_common.vcxproj">
+      <Project>{0d6a41a6-100a-49fc-978e-fdf5ce60245c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_consensus.vcxproj">
+      <Project>{a40cb949-de40-4303-8092-ce8f68161615}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_crypto.vcxproj">
+      <Project>{3912cf1a-f9c1-4e4b-931e-e04aa9002657}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\libbitcoin_util.vcxproj">
+      <Project>{b8853553-2693-4478-8333-d09025f5905a}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

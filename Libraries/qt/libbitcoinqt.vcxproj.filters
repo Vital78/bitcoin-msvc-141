@@ -95,6 +95,60 @@
     </QtUic>
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="$(BTC_ROOT)\qt\overviewpage.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\rpcconsole.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\intro.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinamountfield.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\addressbookpage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\addresstablemodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\askpassphrasedialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\bantablemodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinaddressvalidator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinamountfield.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoingui.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinunits.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\callback.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\clientmodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\coincontroldialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\coincontroltreewidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\csvmodelwriter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="$(BTC_ROOT)\qt\editaddressdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
     <QtMoc Include="$(BTC_ROOT)\qt\guiutil.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -191,18 +245,6 @@
     <QtMoc Include="$(BTC_ROOT)\qt\walletview.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="$(BTC_ROOT)\qt\overviewpage.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="$(BTC_ROOT)\qt\rpcconsole.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="$(BTC_ROOT)\qt\intro.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="$(BTC_ROOT)\qt\bitcoinamountfield.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(BTC_ROOT)\qt\guiconstants.h">
@@ -224,6 +266,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="$(BTC_ROOT)\qt\winshutdownmonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BTC_ROOT)\qt\paymentrequest.pb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
