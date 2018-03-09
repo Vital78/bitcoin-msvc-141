@@ -993,10 +993,10 @@
     <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)_bin\$(Configuration)\</OutDir>
     <IncludePath>$(BTC_INCLUDES);$(IncludePath)</IncludePath>
     <IntDir>$(ProjectName).dir\$(Configuration)\</IntDir>
     <TargetName>$(ProjectName)d</TargetName>
+    <OutDir>$(SolutionDir)_bin\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>$(BTC_INCLUDES);$(IncludePath);</IncludePath>
@@ -1046,11 +1046,11 @@
     </QtMoc>
     <QtUic>
       <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
-      <OutputFile>.\GeneratedFiles\qt\forms\ui_%(Filename).h</OutputFile>
+      <OutputFile>.\GeneratedFiles\$(Configuration)\qt\forms\ui_%(Filename).h</OutputFile>
     </QtUic>
     <QtRcc>
       <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
-      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+      <OutputFile>.\GeneratedFiles\$(Configuration)\qrc_%(Filename).cpp</OutputFile>
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -1080,11 +1080,11 @@
     </QtMoc>
     <QtUic>
       <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
-      <OutputFile>.\GeneratedFiles\qt\forms\ui_%(Filename).h</OutputFile>
+      <OutputFile>.\GeneratedFiles\$(Configuration)\qt\forms\ui_%(Filename).h</OutputFile>
     </QtUic>
     <QtRcc>
       <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
-      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+      <OutputFile>.\GeneratedFiles\$(Configuration)\qrc_%(Filename).cpp</OutputFile>
     </QtRcc>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
