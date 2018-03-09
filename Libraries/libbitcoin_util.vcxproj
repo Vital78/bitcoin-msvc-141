@@ -123,7 +123,7 @@
     <ClCompile Include="$(BTC_ROOT)\fs.cpp" />
     <ClCompile Include="$(BTC_ROOT)\random.cpp" />
     <ClCompile Include="$(BTC_ROOT)\rpc\protocol.cpp" />
-    <ClCompile Include="..\..\..\SDKs\source\bitcoin\src\rpc\util_rpc.cpp" />
+    <ClCompile Include="$(BTC_ROOT)\rpc\util_rpc.cpp" />
     <ClCompile Include="$(BTC_ROOT)\support\cleanse.cpp" />
     <ClCompile Include="$(BTC_ROOT)\support\lockedpool.cpp" />
     <ClCompile Include="$(BTC_ROOT)\sync.cpp" />
@@ -134,7 +134,7 @@
     <ClCompile Include="$(BTC_ROOT)\utiltime.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\SDKs\source\bitcoin\src\util.h" />
+    <ClInclude Include="$(BTC_ROOT)\util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

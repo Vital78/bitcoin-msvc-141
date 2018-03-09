@@ -68,12 +68,12 @@
     <ClCompile Include="$(BTC_ROOT)\support\cleanse.cpp">
       <Filter>Source Files\support</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\SDKs\source\bitcoin\src\rpc\util_rpc.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\util_rpc.cpp">
       <Filter>Source Files\rpc</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\SDKs\source\bitcoin\src\util.h">
+    <ClInclude Include="$(BTC_ROOT)\util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

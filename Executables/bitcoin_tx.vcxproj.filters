@@ -11,7 +11,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\SDKs\source\bitcoin\src\bitcoin-tx.cpp">
+    <ClCompile Include="$(BTC_ROOT)\bitcoin-tx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
