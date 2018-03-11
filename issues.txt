@@ -1,0 +1,8 @@
+issue:
+
+Release|Win32  Link warning due to libbitcoin_server.
+
+
+
+ENABLE_WALLET
+

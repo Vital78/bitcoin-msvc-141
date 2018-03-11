@@ -4,12 +4,16 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <OutDir>$(SolutionDir)_bin\$(Configuration)\</OutDir>
-    <IntDir>$(ProjectName).dir\$(Configuration)\</IntDir>
+    <IntDir>_$(ProjectName).dir\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
       <PerUserRedirection>true</PerUserRedirection>
     </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(BTC_INCLUDES)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>HAVE_CONFIG_H</PreprocessorDefinitions>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>

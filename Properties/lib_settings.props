@@ -4,7 +4,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <OutDir>$(SolutionDir)_lib\$(Configuration)\</OutDir>
-    <IntDir>$(ProjectName).dir\$(Configuration)\</IntDir>
+    <IntDir>_$(ProjectName).dir\$(Configuration)\</IntDir>
     <_PropertySheetDisplayName>lib_settings</_PropertySheetDisplayName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
