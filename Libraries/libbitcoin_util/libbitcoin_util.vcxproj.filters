@@ -20,60 +20,60 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="support\lockedpool.cpp">
-      <Filter>Source Files\support</Filter>
-    </ClCompile>
-    <ClCompile Include="clientversion.cpp">
+    <ClCompile Include="$(BTC_ROOT)\chainparamsbase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="compat\glibc_sanity.cpp">
-      <Filter>Source Files\compat</Filter>
-    </ClCompile>
-    <ClCompile Include="compat\glibcxx_sanity.cpp">
-      <Filter>Source Files\compat</Filter>
-    </ClCompile>
-    <ClCompile Include="compat\strnlen.cpp">
-      <Filter>Source Files\compat</Filter>
-    </ClCompile>
-    <ClCompile Include="fs.cpp">
+    <ClCompile Include="$(BTC_ROOT)\clientversion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="random.cpp">
+    <ClCompile Include="$(BTC_ROOT)\compat\glibcxx_sanity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rpc\protocol.cpp">
-      <Filter>Source Files\rpc</Filter>
-    </ClCompile>
-    <ClCompile Include="sync.cpp">
+    <ClCompile Include="$(BTC_ROOT)\compat\glibc_sanity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="threadinterrupt.cpp">
+    <ClCompile Include="$(BTC_ROOT)\compat\strnlen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="util.cpp">
+    <ClCompile Include="$(BTC_ROOT)\fs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utilmoneystr.cpp">
+    <ClCompile Include="$(BTC_ROOT)\random.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utilstrencodings.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\protocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utiltime.cpp">
+    <ClCompile Include="$(BTC_ROOT)\rpc\util_rpc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chainparamsbase.cpp">
+    <ClCompile Include="$(BTC_ROOT)\support\cleanse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="support\cleanse.cpp">
-      <Filter>Source Files\support</Filter>
+    <ClCompile Include="$(BTC_ROOT)\support\lockedpool.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rpc\util_rpc.cpp">
-      <Filter>Source Files\rpc</Filter>
+    <ClCompile Include="$(BTC_ROOT)\sync.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BTC_ROOT)\threadinterrupt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BTC_ROOT)\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BTC_ROOT)\utilmoneystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BTC_ROOT)\utilstrencodings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BTC_ROOT)\utiltime.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="util.h">
+    <ClInclude Include="$(BTC_ROOT)\util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

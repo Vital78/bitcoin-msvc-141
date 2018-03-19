@@ -135,34 +135,36 @@
     <QtMoc Include="qt\overviewpage.cpp">
       <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">qt\overviewpage.cpp</InputFile>
       <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">qt\overviewpage.cpp</InputFile>
-      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
-      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\qt\%(Filename).moc</OutputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\qt\%(Filename).moc</OutputFile>
       <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">input</DynamicSource>
       <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">input</DynamicSource>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtDBus;$(QTDIR)\include\QtNetwork;$(BOOST_INCLUDES)\.;$(BERKELEYDB_INCLUDES)\.;$(PROTOBUF_INCLUDES)\.;$(LEVELDB_INCLUDES)\.;$(OPENSSL_INCLUDES)\.;$(UNIVALUE_INCLUDES)\.</IncludePath>
     </QtMoc>
     <QtMoc Include="qt\rpcconsole.cpp">
       <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">qt\rpcconsole.cpp</InputFile>
       <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">qt\rpcconsole.cpp</InputFile>
-      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
-      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\qt\%(Filename).moc</OutputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\qt\%(Filename).moc</OutputFile>
       <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">input</DynamicSource>
       <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">input</DynamicSource>
     </QtMoc>
     <QtMoc Include="qt\intro.cpp">
       <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">qt\intro.cpp</InputFile>
       <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">qt\intro.cpp</InputFile>
-      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
-      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\qt\%(Filename).moc</OutputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\qt\%(Filename).moc</OutputFile>
       <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">input</DynamicSource>
       <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">input</DynamicSource>
     </QtMoc>
     <QtMoc Include="qt\bitcoinamountfield.cpp">
       <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">qt\bitcoinamountfield.cpp</InputFile>
       <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">qt\bitcoinamountfield.cpp</InputFile>
-      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
-      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\qt\%(Filename).moc</OutputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\qt\%(Filename).moc</OutputFile>
       <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">input</DynamicSource>
       <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">input</DynamicSource>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtDBus;$(QTDIR)\include\QtNetwork;$(BOOST_INCLUDES)\.;$(BERKELEYDB_INCLUDES)\.;$(PROTOBUF_INCLUDES)\.;$(LEVELDB_INCLUDES)\.;$(OPENSSL_INCLUDES)\.;$(UNIVALUE_INCLUDES)\.</IncludePath>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -963,7 +965,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{34D3E449-A36E-4F30-B7DF-1A6B73979566}</ProjectGuid>
     <Keyword>Qt4VSv1.0</Keyword>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -1044,7 +1046,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>ENABLE_WALLET;UNICODE;_UNICODE;WIN32;_X86_;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;WIN32;_X86_;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtDBus;$(QTDIR)\include\QtNetwork;$(BOOST_INCLUDES);$(BERKELEYDB_INCLUDES);$(PROTOBUF_INCLUDES);$(LEVELDB_INCLUDES);$(OPENSSL_INCLUDES);$(UNIVALUE_INCLUDES);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Disabled</Optimization>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -1064,15 +1066,22 @@
       <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
       <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
       <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtDBus;$(QTDIR)\include\QtNetwork;$(BOOST_INCLUDES)\.;$(BERKELEYDB_INCLUDES)\.;$(PROTOBUF_INCLUDES)\.;$(LEVELDB_INCLUDES)\.;$(OPENSSL_INCLUDES)\.;$(UNIVALUE_INCLUDES)\.;$(NOINHERIT)\.</IncludePath>
-      <Define>ENABLE_WALLET;UNICODE;_UNICODE;WIN32;_X86_;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS</Define>
+      <Define>UNICODE;_UNICODE;WIN32;_X86_;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS</Define>
+      <ForceInclude>
+      </ForceInclude>
+      <PrependInclude>
+      </PrependInclude>
+      <Include>$(BTC_CONFIG_FILE)</Include>
+      <PathPrefix>
+      </PathPrefix>
     </QtMoc>
     <QtUic>
       <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
-      <OutputFile>.\GeneratedFiles\qt\forms\ui_%(Filename).h</OutputFile>
+      <OutputFile>.\GeneratedFiles\$(Configuration)\qt\forms\ui_%(Filename).h</OutputFile>
     </QtUic>
     <QtRcc>
       <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
-      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+      <OutputFile>.\GeneratedFiles\$(Configuration)\qrc_%(Filename).cpp</OutputFile>
     </QtRcc>
   </ItemDefinitionGroup>
   <!-- <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> -->
@@ -1133,6 +1142,7 @@
       <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtDBus;$(QTDIR)\include\QtNetwork;$(BOOST_INCLUDES)\.;$(BERKELEYDB_INCLUDES)\.;$(PROTOBUF_INCLUDES)\.;$(LEVELDB_INCLUDES)\.;$(OPENSSL_INCLUDES)\.;$(UNIVALUE_INCLUDES)\.;$(NOINHERIT)\.</IncludePath>
       <Define>ENABLE_WALLET;UNICODE;_UNICODE;WIN32;_X86_;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;MINIUPNP_STATICLIB;ZMQ_STATIC;_MBCS</Define>
       <QTDIR>$(QTDIR)</QTDIR>
+      <Include>$(BTC_CONFIG_FILE)</Include>
     </QtMoc>
     <QtUic>
       <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>

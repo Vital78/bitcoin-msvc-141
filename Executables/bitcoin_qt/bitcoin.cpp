@@ -52,6 +52,7 @@
 #include <QTranslator>
 #include <QSslConfiguration>
 
+#undef QT_STATICPLUGIN
 #if defined(QT_STATICPLUGIN)
 #include <QtPlugin>
 #if QT_VERSION < 0x050000

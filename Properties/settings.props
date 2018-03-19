@@ -12,7 +12,7 @@
     <OPENSSL_INCLUDES>$(OPENSSL_ROOT_DIR)\include</OPENSSL_INCLUDES>
     <EVENT_INCLUDES>$(EVENT_ROOT)\include</EVENT_INCLUDES>
     <ZMQ_INCLUDES>$(ZMQ_ROOT)\include</ZMQ_INCLUDES>
-    <BOOST_LIBS32>$(BOOST_ROOT)\lib32-msvc-14.1</BOOST_LIBS32>
+    <BOOST_LIBS32>$(BOOST_ROOT)\stage\lib</BOOST_LIBS32>
     <OPENSSL_LIBS32>$(OPENSSL_ROOT_DIR)\lib</OPENSSL_LIBS32>
     <OPENSSL_DEPS32>libcrypto.lib;libssl.lib</OPENSSL_DEPS32>
     <EVENT_LIBS32>$(EVENT_ROOT)\lib</EVENT_LIBS32>
@@ -30,6 +30,7 @@
     <PROTOBUF_LIBS32>$(PROTOBUF_ROOT)\lib</PROTOBUF_LIBS32>
     <PROTOBUF_DEPS32_D>libprotobufd.lib</PROTOBUF_DEPS32_D>
     <PROTOBUF_DEPS32>libprotobuf.lib</PROTOBUF_DEPS32>
+    <BTC_CONFIG_FILE>$(SolutionDir)include\config\bitcoin-config.h</BTC_CONFIG_FILE>
   </PropertyGroup>
   <PropertyGroup>
     <IncludePath>$(BTC_INCLUDES);$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
@@ -153,6 +154,10 @@
     </BuildMacro>
     <BuildMacro Include="PROTOBUF_DEPS32">
       <Value>$(PROTOBUF_DEPS32)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BTC_CONFIG_FILE">
+      <Value>$(BTC_CONFIG_FILE)</Value>
       <EnvironmentVariable>true</EnvironmentVariable>
     </BuildMacro>
   </ItemGroup>

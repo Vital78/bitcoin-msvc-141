@@ -376,12 +376,14 @@
 
 /* Define this symbol if the qt platform is windows */
 /* #undef QT_QPA_PLATFORM_WINDOWS */
+#define QT_QPA_PLATFORM_WINDOWS
 
 /* Define this symbol if the qt platform is xcb */
 /* #undef QT_QPA_PLATFORM_XCB */
 
 /* Define this symbol if qt plugins are static */
 /* #undef QT_STATICPLUGIN */
+#define QT_STATICPLUGIN
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1

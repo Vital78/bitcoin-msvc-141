@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A6B7EBDF-8BF2-4F41-BE3F-69F9B35CD93F}"
 EndProject
@@ -44,6 +44,252 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbitcoinqt", "Libraries\libbitcoinqt\libbitcoinqt.vcxproj", "{34D3E449-A36E-4F30-B7DF-1A6B73979566}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoin_qt", "Executables\bitcoin_qt\bitcoin_qt.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GlobalHeaders", "GlobalHeaders", "{143C601D-A07C-4693-A5E8-C47943D8373B}"
+	ProjectSection(SolutionItems) = preProject
+		include\addrdb.h = include\addrdb.h
+		include\addrman.h = include\addrman.h
+		include\amount.h = include\amount.h
+		include\arith_uint256.h = include\arith_uint256.h
+		include\base58.h = include\base58.h
+		include\bloom.h = include\bloom.h
+		include\chain.h = include\chain.h
+		include\chainparams.h = include\chainparams.h
+		include\chainparamsbase.h = include\chainparamsbase.h
+		include\chainparamsseeds.h = include\chainparamsseeds.h
+		include\checkpoints.h = include\checkpoints.h
+		include\checkqueue.h = include\checkqueue.h
+		include\clientversion.h = include\clientversion.h
+		include\coins.h = include\coins.h
+		include\compat.h = include\compat.h
+		include\compressor.h = include\compressor.h
+		include\core_io.h = include\core_io.h
+		include\core_memusage.h = include\core_memusage.h
+		include\cuckoocache.h = include\cuckoocache.h
+		include\dbwrapper.h = include\dbwrapper.h
+		include\fs.h = include\fs.h
+		include\hash.h = include\hash.h
+		include\httprpc.h = include\httprpc.h
+		include\httpserver.h = include\httpserver.h
+		include\indirectmap.h = include\indirectmap.h
+		include\init.h = include\init.h
+		include\key.h = include\key.h
+		include\key_io.h = include\key_io.h
+		include\keystore.h = include\keystore.h
+		include\limitedmap.h = include\limitedmap.h
+		include\memusage.h = include\memusage.h
+		include\merkleblock.h = include\merkleblock.h
+		include\net.h = include\net.h
+		include\net_processing.h = include\net_processing.h
+		include\netaddress.h = include\netaddress.h
+		include\netbase.h = include\netbase.h
+		include\netmessagemaker.h = include\netmessagemaker.h
+		include\noui.h = include\noui.h
+		include\pow.h = include\pow.h
+		include\prevector.h = include\prevector.h
+		include\protocol.h = include\protocol.h
+		include\pubkey.h = include\pubkey.h
+		include\random.h = include\random.h
+		include\reverse_iterator.h = include\reverse_iterator.h
+		include\reverselock.h = include\reverselock.h
+		include\scheduler.h = include\scheduler.h
+		include\serialize.h = include\serialize.h
+		include\streams.h = include\streams.h
+		include\sync.h = include\sync.h
+		include\threadinterrupt.h = include\threadinterrupt.h
+		include\threadsafety.h = include\threadsafety.h
+		include\timedata.h = include\timedata.h
+		include\tinyformat.h = include\tinyformat.h
+		include\txdb.h = include\txdb.h
+		include\txmempool.h = include\txmempool.h
+		include\ui_interface.h = include\ui_interface.h
+		include\uint256.h = include\uint256.h
+		include\undo.h = include\undo.h
+		include\util.h = include\util.h
+		include\utilmoneystr.h = include\utilmoneystr.h
+		include\utilstrencodings.h = include\utilstrencodings.h
+		include\utiltime.h = include\utiltime.h
+		include\validation.h = include\validation.h
+		include\validationinterface.h = include\validationinterface.h
+		include\version.h = include\version.h
+		include\versionbits.h = include\versionbits.h
+		include\warnings.h = include\warnings.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "compat", "compat", "{830BEE2D-DF66-4DB1-A65E-A0CAE872F4A8}"
+	ProjectSection(SolutionItems) = preProject
+		include\compat\byteswap.h = include\compat\byteswap.h
+		include\compat\endian.h = include\compat\endian.h
+		include\compat\sanity.h = include\compat\sanity.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{76E4C8AB-0A23-4A8D-942C-EA47FCE0C1BD}"
+	ProjectSection(SolutionItems) = preProject
+		include\config\bitcoin-config.h = include\config\bitcoin-config.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "consensus", "consensus", "{CC363729-0292-42D7-B4F6-4B569ACF7153}"
+	ProjectSection(SolutionItems) = preProject
+		include\consensus\consensus.h = include\consensus\consensus.h
+		include\consensus\merkle.h = include\consensus\merkle.h
+		include\consensus\params.h = include\consensus\params.h
+		include\consensus\tx_verify.h = include\consensus\tx_verify.h
+		include\consensus\validation.h = include\consensus\validation.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "crypto", "crypto", "{BE546AA6-16D8-4541-9061-195358E8B7EA}"
+	ProjectSection(SolutionItems) = preProject
+		include\crypto\aes.h = include\crypto\aes.h
+		include\crypto\chacha20.h = include\crypto\chacha20.h
+		include\crypto\common.h = include\crypto\common.h
+		include\crypto\hmac_sha256.h = include\crypto\hmac_sha256.h
+		include\crypto\hmac_sha512.h = include\crypto\hmac_sha512.h
+		include\crypto\ripemd160.h = include\crypto\ripemd160.h
+		include\crypto\sha1.h = include\crypto\sha1.h
+		include\crypto\sha256.h = include\crypto\sha256.h
+		include\crypto\sha512.h = include\crypto\sha512.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "leveldb", "leveldb", "{63E9B0B8-FA5C-442E-870D-F836B7E87543}"
+	ProjectSection(SolutionItems) = preProject
+		include\leveldb\c.h = include\leveldb\c.h
+		include\leveldb\cache.h = include\leveldb\cache.h
+		include\leveldb\comparator.h = include\leveldb\comparator.h
+		include\leveldb\db.h = include\leveldb\db.h
+		include\leveldb\dumpfile.h = include\leveldb\dumpfile.h
+		include\leveldb\env.h = include\leveldb\env.h
+		include\leveldb\filter_policy.h = include\leveldb\filter_policy.h
+		include\leveldb\iterator.h = include\leveldb\iterator.h
+		include\leveldb\options.h = include\leveldb\options.h
+		include\leveldb\slice.h = include\leveldb\slice.h
+		include\leveldb\status.h = include\leveldb\status.h
+		include\leveldb\table.h = include\leveldb\table.h
+		include\leveldb\table_builder.h = include\leveldb\table_builder.h
+		include\leveldb\write_batch.h = include\leveldb\write_batch.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ctaes", "ctaes", "{0B609924-3E70-4605-A27E-51FA172FCB1C}"
+	ProjectSection(SolutionItems) = preProject
+		include\crypto\ctaes\ctaes.h = include\crypto\ctaes\ctaes.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "helpers", "helpers", "{EC29B6AE-01C5-4DA1-872E-9FA645FDE8F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "util", "util", "{7DD13DC9-C0D5-40F4-864E-92850471C65A}"
+	ProjectSection(SolutionItems) = preProject
+		include\leveldb\util\mutexlock.h = include\leveldb\util\mutexlock.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "port", "port", "{6BA7A19B-993C-4CAA-8B10-E82380FB2100}"
+	ProjectSection(SolutionItems) = preProject
+		include\leveldb\port\port.h = include\leveldb\port\port.h
+		include\leveldb\port\port_win.h = include\leveldb\port\port_win.h
+		include\leveldb\port\thread_annotations.h = include\leveldb\port\thread_annotations.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "memenv", "memenv", "{4613926F-CCE1-4E5C-A76B-E60F69D195A4}"
+	ProjectSection(SolutionItems) = preProject
+		include\leveldb\helpers\memenv\memenv.h = include\leveldb\helpers\memenv\memenv.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zmq", "zmq", "{9ABD643B-EF58-4CB8-9F35-5306F1132FF2}"
+	ProjectSection(SolutionItems) = preProject
+		include\zmq\zmqnotificationinterface.h = include\zmq\zmqnotificationinterface.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wallet", "wallet", "{8FF4BBB5-BE17-4DA5-9210-8D2EB3A00D0C}"
+	ProjectSection(SolutionItems) = preProject
+		include\wallet\coincontrol.h = include\wallet\coincontrol.h
+		include\wallet\crypter.h = include\wallet\crypter.h
+		include\wallet\db.h = include\wallet\db.h
+		include\wallet\feebumper.h = include\wallet\feebumper.h
+		include\wallet\fees.h = include\wallet\fees.h
+		include\wallet\init.h = include\wallet\init.h
+		include\wallet\rpcwallet.h = include\wallet\rpcwallet.h
+		include\wallet\wallet.h = include\wallet\wallet.h
+		include\wallet\walletdb.h = include\wallet\walletdb.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "univalue", "univalue", "{2D9A2036-57C9-4534-832F-01A7E4DF03D1}"
+	ProjectSection(SolutionItems) = preProject
+		include\univalue\univalue.h = include\univalue\univalue.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "support", "support", "{092A0D72-C3AE-4697-88DE-692F42B4CC92}"
+	ProjectSection(SolutionItems) = preProject
+		include\support\cleanse.h = include\support\cleanse.h
+		include\support\events.h = include\support\events.h
+		include\support\lockedpool.h = include\support\lockedpool.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "allocators", "allocators", "{BB536B41-03FA-44FE-A534-C9280789EFDB}"
+	ProjectSection(SolutionItems) = preProject
+		include\support\allocators\secure.h = include\support\allocators\secure.h
+		include\support\allocators\zeroafterfree.h = include\support\allocators\zeroafterfree.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "secp256k1", "secp256k1", "{9F713D26-1EEA-4311-9A8C-4D6740BF7779}"
+	ProjectSection(SolutionItems) = preProject
+		include\secp256k1\secp256k1.h = include\secp256k1\secp256k1.h
+		include\secp256k1\secp256k1_ecdh.h = include\secp256k1\secp256k1_ecdh.h
+		include\secp256k1\secp256k1_recovery.h = include\secp256k1\secp256k1_recovery.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "script", "script", "{9EE1DAF5-C4A6-4327-A7E1-0F39FE30B4F7}"
+	ProjectSection(SolutionItems) = preProject
+		include\script\interpreter.h = include\script\interpreter.h
+		include\script\ismine.h = include\script\ismine.h
+		include\script\script.h = include\script\script.h
+		include\script\script_error.h = include\script\script_error.h
+		include\script\sign.h = include\script\sign.h
+		include\script\standard.h = include\script\standard.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rpc", "rpc", "{DCEF6E69-4485-4B70-9C50-D1C95E787D87}"
+	ProjectSection(SolutionItems) = preProject
+		include\rpc\client.h = include\rpc\client.h
+		include\rpc\mining.h = include\rpc\mining.h
+		include\rpc\protocol.h = include\rpc\protocol.h
+		include\rpc\rawtransaction.h = include\rpc\rawtransaction.h
+		include\rpc\register.h = include\rpc\register.h
+		include\rpc\safemode.h = include\rpc\safemode.h
+		include\rpc\server.h = include\rpc\server.h
+		include\rpc\util.h = include\rpc\util.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "qt", "qt", "{8AD8113F-C009-4DD7-B194-4EB81C83C0FA}"
+	ProjectSection(SolutionItems) = preProject
+		include\qt\bitcoingui.h = include\qt\bitcoingui.h
+		include\qt\clientmodel.h = include\qt\clientmodel.h
+		include\qt\guiconstants.h = include\qt\guiconstants.h
+		include\qt\guiutil.h = include\qt\guiutil.h
+		include\qt\intro.h = include\qt\intro.h
+		include\qt\networkstyle.h = include\qt\networkstyle.h
+		include\qt\optionsmodel.h = include\qt\optionsmodel.h
+		include\qt\paymentrequest.pb.h = include\qt\paymentrequest.pb.h
+		include\qt\paymentrequestplus.h = include\qt\paymentrequestplus.h
+		include\qt\paymentserver.h = include\qt\paymentserver.h
+		include\qt\platformstyle.h = include\qt\platformstyle.h
+		include\qt\splashscreen.h = include\qt\splashscreen.h
+		include\qt\utilitydialog.h = include\qt\utilitydialog.h
+		include\qt\walletmodel.h = include\qt\walletmodel.h
+		include\qt\walletmodeltransaction.h = include\qt\walletmodeltransaction.h
+		include\qt\winshutdownmonitor.h = include\qt\winshutdownmonitor.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "primitives", "primitives", "{E4F45613-3125-44EA-9C57-23974F13346D}"
+	ProjectSection(SolutionItems) = preProject
+		include\primitives\block.h = include\primitives\block.h
+		include\primitives\transaction.h = include\primitives\transaction.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "policy", "policy", "{1ACCA513-EEFD-4005-94CB-5BEBB19E4C84}"
+	ProjectSection(SolutionItems) = preProject
+		include\policy\feerate.h = include\policy\feerate.h
+		include\policy\fees.h = include\policy\fees.h
+		include\policy\policy.h = include\policy\policy.h
+		include\policy\rbf.h = include\policy\rbf.h
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -190,11 +436,9 @@ Global
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|Win32
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x86.ActiveCfg = Debug|Win32
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x86.Build.0 = Debug|Win32
-		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x86.Deploy.0 = Debug|Win32
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|Win32
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x86.ActiveCfg = Release|Win32
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x86.Build.0 = Release|Win32
-		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x86.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -218,6 +462,27 @@ Global
 		{6DA2D20B-BF14-41DB-A50F-B40426588FCE} = {6B0DB24D-88E3-4EA7-9609-5949C39516D4}
 		{34D3E449-A36E-4F30-B7DF-1A6B73979566} = {A6B7EBDF-8BF2-4F41-BE3F-69F9B35CD93F}
 		{B12702AD-ABFB-343A-A199-8E24837244A3} = {6B0DB24D-88E3-4EA7-9609-5949C39516D4}
+		{830BEE2D-DF66-4DB1-A65E-A0CAE872F4A8} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{76E4C8AB-0A23-4A8D-942C-EA47FCE0C1BD} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{CC363729-0292-42D7-B4F6-4B569ACF7153} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{BE546AA6-16D8-4541-9061-195358E8B7EA} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{63E9B0B8-FA5C-442E-870D-F836B7E87543} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{0B609924-3E70-4605-A27E-51FA172FCB1C} = {BE546AA6-16D8-4541-9061-195358E8B7EA}
+		{EC29B6AE-01C5-4DA1-872E-9FA645FDE8F2} = {63E9B0B8-FA5C-442E-870D-F836B7E87543}
+		{7DD13DC9-C0D5-40F4-864E-92850471C65A} = {63E9B0B8-FA5C-442E-870D-F836B7E87543}
+		{6BA7A19B-993C-4CAA-8B10-E82380FB2100} = {63E9B0B8-FA5C-442E-870D-F836B7E87543}
+		{4613926F-CCE1-4E5C-A76B-E60F69D195A4} = {EC29B6AE-01C5-4DA1-872E-9FA645FDE8F2}
+		{9ABD643B-EF58-4CB8-9F35-5306F1132FF2} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{8FF4BBB5-BE17-4DA5-9210-8D2EB3A00D0C} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{2D9A2036-57C9-4534-832F-01A7E4DF03D1} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{092A0D72-C3AE-4697-88DE-692F42B4CC92} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{BB536B41-03FA-44FE-A534-C9280789EFDB} = {092A0D72-C3AE-4697-88DE-692F42B4CC92}
+		{9F713D26-1EEA-4311-9A8C-4D6740BF7779} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{9EE1DAF5-C4A6-4327-A7E1-0F39FE30B4F7} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{DCEF6E69-4485-4B70-9C50-D1C95E787D87} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{8AD8113F-C009-4DD7-B194-4EB81C83C0FA} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{E4F45613-3125-44EA-9C57-23974F13346D} = {143C601D-A07C-4693-A5E8-C47943D8373B}
+		{1ACCA513-EEFD-4005-94CB-5BEBB19E4C84} = {143C601D-A07C-4693-A5E8-C47943D8373B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F1E30AC-66FF-4DCD-8CA4-F1AF70A2C941}

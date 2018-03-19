@@ -209,31 +209,31 @@
     <QtMoc Include="qt\walletview.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="include\qt\walletmodel.h">
+    <QtMoc Include="$(SolutionDir)include\qt\walletmodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="include\qt\utilitydialog.h">
+    <QtMoc Include="$(SolutionDir)include\qt\utilitydialog.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="include\qt\splashscreen.h">
+    <QtMoc Include="$(SolutionDir)include\qt\splashscreen.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="include\qt\paymentserver.h">
+    <QtMoc Include="$(SolutionDir)include\qt\paymentserver.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="include\qt\optionsmodel.h">
+    <QtMoc Include="$(SolutionDir)include\qt\optionsmodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="include\qt\intro.h">
+    <QtMoc Include="$(SolutionDir)include\qt\intro.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="include\qt\guiutil.h">
+    <QtMoc Include="$(SolutionDir)include\qt\guiutil.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="include\qt\clientmodel.h">
+    <QtMoc Include="$(SolutionDir)include\qt\clientmodel.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="include\qt\bitcoingui.h">
+    <QtMoc Include="$(SolutionDir)include\qt\bitcoingui.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="qt\rpcconsole.cpp">
